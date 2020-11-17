@@ -1,0 +1,12 @@
+# Don't check auto-generated stuff into git
+coverage
+test
+build
+node_modules
+package-lock.json
+stats.json
+.vs/
+.scannerwork
+.sonarlint
+src/components/**/__snapshots__/
+src/containers/**/__snapshots__/

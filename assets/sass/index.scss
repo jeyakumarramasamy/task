@@ -1,0 +1,25 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.login-container {
+    display: flex;
+    justify-content: center;
+
+    & .login-form {
+        margin-top: 100px;
+        width: 300px;
+    }
+}
+
+.search-container {
+    padding: 10px;
+    & .planet {
+        border: 1px solid;
+    }
+
+    & .placeholder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+}
